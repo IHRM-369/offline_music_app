@@ -1,0 +1,18 @@
+
+name: offline_music_app
+description: Spotify-style music player with YouTube MP3 conversion.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  just_audio: ^0.9.33
+  audio_service: ^0.18.10
+  audio_session: ^0.1.6
+
+flutter:
+  uses-material-design: true
